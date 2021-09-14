@@ -32,6 +32,7 @@ then
   cd "$CLONE_DIR"
   git checkout -b "$INPUT_DESTINATION_BRANCH_CREATE"
   OUTPUT_BRANCH="$INPUT_DESTINATION_BRANCH_CREATE"
+  cd ..
 fi
 
 echo "Copying contents to git repo"
