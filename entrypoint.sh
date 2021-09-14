@@ -35,6 +35,8 @@ then
   cd ..
 fi
 
+ls
+
 echo "Copying contents to git repo"
 rm -rf $CLONE_DIR/$INPUT_DESTINATION_FOLDER/
 mkdir -p $CLONE_DIR/$INPUT_DESTINATION_FOLDER/
