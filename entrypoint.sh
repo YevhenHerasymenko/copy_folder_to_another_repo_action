@@ -33,6 +33,7 @@ then
   git checkout -b "$INPUT_DESTINATION_BRANCH_CREATE"
   OUTPUT_BRANCH="$INPUT_DESTINATION_BRANCH_CREATE"
   cd ..
+  cd ..
 fi
 
 ls
