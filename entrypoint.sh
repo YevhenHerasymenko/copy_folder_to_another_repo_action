@@ -29,6 +29,7 @@ git clone --single-branch --branch $INPUT_DESTINATION_BRANCH "https://$API_TOKEN
 
 if [ ! -z "$INPUT_DESTINATION_BRANCH_CREATE" ]
 then
+  cd "$CLONE_DIR"
   git checkout -b "$INPUT_DESTINATION_BRANCH_CREATE"
   OUTPUT_BRANCH="$INPUT_DESTINATION_BRANCH_CREATE"
 fi
